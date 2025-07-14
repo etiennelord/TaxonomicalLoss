@@ -55,7 +55,7 @@ Different options are available:
 
 ## Simulations
 
-1. The study simulation scripts are provided.
+The study simulation scripts are provided: 
 - *run_PlantSeedlings.sh* for the PlantSeedlings dataset simulations.
 -  *run_DeepWeeds.sh* for the DeepWeed dataset simulations.
 -  *run_WPD.sh* for the Weed Phenological dataset simulations.
@@ -68,7 +68,7 @@ Some results using a subset of the EuroSat dataset [Helber, 2019]
 The taxonomy used
 ![dataset overview](https://github.com/etiennelord/TaxonomicalLoss/blob/main/images/EuroSat2.png)
 
-Command-line used: 
+Command-line used for training the model: 
 ```
 python train.py --epoch=50 --data EuroSatRGBmini --tree taxonomy_Eurosat.txt --batch_size=128 --imgsz=64 --lr=0.001 --model "mobilenet" --seed=$iseed --embeddings_size=32 --loss "taxonomic" --train_val_test_split 0.70 0.15 0.15
 ```
