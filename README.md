@@ -10,7 +10,7 @@ Then download some data from the *data* folder.
 1. Create some dataset using the *setup_k_dataset.py* which split a dataset into the corresponding train/val/test split, but using *k* images for each class in the training set. Example for the Weed Phenological Dataset (WPD) for 100 images per class, and a maximum of 250 images in the validation and test sets:
 
 ```
-python setup_k.py --data WPD_mixed_BBCH/ --output WPD_mixed_BBCH_100 --seed=42 --k=100 --max_test=250
+python setup_k.py --data WPD_mixed_BBCH/ --output WPD_mixed_BBCH_100 --seed=42 --k=100 --max_test=250 --complete
 ```
 
 2. Train the generic models for the baseline classification using the *generic_resnet50.py* or *generic_mobilenet3.py*:
