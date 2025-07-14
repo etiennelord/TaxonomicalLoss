@@ -5,6 +5,8 @@ Setup the environment using the *setup_env.sh* script.
 
 Then download some data from the *data* folder.
 
+![dataset overview](https://github.com/etiennelord/TaxonomicalLoss/blob/main/images/WPD.png)
+
 ## Usages
 
 1. Create some dataset using the *setup_k_dataset.py* which split a dataset into the corresponding train/val/test split, but using *k* images for each class in the training set. Example for the Weed Phenological Dataset (WPD) for 100 images per class, and a maximum of 250 images in the validation and test sets:
@@ -56,4 +58,21 @@ Different options are available:
 1. The study simulation scripts are provided.
 - *run_PlantSeedlings.sh* for the PlantSeedlings dataset simulations.
 -  *run_DeepWeeds.sh* for the DeepWeed dataset simulations.
--  *run_WPD.sh* for the Weed Phenological dataset simulations. 
+-  *run_WPD.sh* for the Weed Phenological dataset simulations.
+
+## Sample results using the EuroSat dataset
+
+Some results using a subset of the EuroSat dataset [Helber, 2019]
+![dataset overview](https://github.com/etiennelord/TaxonomicalLoss/blob/main/images/EuroSat1.png)
+
+The taxonomy used
+![dataset overview](https://github.com/etiennelord/TaxonomicalLoss/blob/main/images/EuroSat2.png)
+
+Command-line used: 
+```
+python train.py --epoch=50 --data EuroSatRGBmini --tree taxonomy_Eurosat.txt --batch_size=128 --imgsz=64 --lr=0.001 --model "mobilenet" --seed=$iseed --embeddings_size=32 --loss "taxonomic" --train_val_test_split 0.70 0.15 0.15
+```
+
+## References
+
+Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(7), 2217-2226.
