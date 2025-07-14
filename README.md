@@ -78,3 +78,7 @@ python train.py --epoch=50 --data EuroSatRGBmini --tree taxonomy_Eurosat.txt --b
 ## References
 
 Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(7), 2217-2226.
+
+## Citations
+
+Hans-Olivier Fontaine, Samuel Foucher, Edith Fallon, Marie-Josee Simard, and Etienne Lord (2025) Taxonomical loss for weed seedlings image classification (in review)é
