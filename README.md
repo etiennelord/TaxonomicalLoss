@@ -28,5 +28,5 @@ python train.py --epoch=50 --data WPD_mixed_BBCH_100 --tree WPD_mixed_BBCH/taxon
 
 1. The study simulation scripts are provided.
 - *run_PlantSeedlings.sh* for the PlantSeedlings dataset simulations.
--  *run_DeepWeed.sh* for the DeepWeed dataset simulations.
+-  *run_DeepWeeds.sh* for the DeepWeed dataset simulations.
 -  *run_WPD.sh* for the Weed Phenological dataset simulations. 
