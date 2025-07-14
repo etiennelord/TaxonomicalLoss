@@ -5,6 +5,8 @@ Setup the environment using the *setup_env.sh* script.
 
 Then download some data from the *data* folder.
 
+The study contains a unique dataset, the Weed Phenological Dataset (WPD) which include 5 weed species. 
+
 ![dataset overview](https://github.com/etiennelord/TaxonomicalLoss/blob/main/images/WPD.png)
 
 ## Usages
