@@ -48,6 +48,7 @@ Different options are available:
 | `--beta` | float | 0.1 | No | Beta parameter for hierarchical triplet loss. |
 | `--tree_depth` | int | 16 | No | Depth of the hierarchical tree. |
 | `--tree_update_freq` | int | 5 | No | Frequency to update the hierarchical tree (epochs). |
+
 *Use the *setup_k_dataset.py* is preferred.
 
 ## Simulations
