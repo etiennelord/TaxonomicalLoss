@@ -24,3 +24,9 @@ python generic_mobilenet3.py --epoch=50 --data_dir WPD_mixed_BBCH_100 --output o
 ```
 python train.py --epoch=50 --data WPD_mixed_BBCH_100 --tree WPD_mixed_BBCH/taxonomy.txt --output output_WPD_mobilenet_taxonimic --batch_size=64 --imgsz=512 --lr=0.001 --model "mobilenet" --seed=42 --embeddings_size=64 --loss "taxonomic" 
 ```
+## Simulations
+
+1. The study simulation scripts are provided.
+- *run_PlantSeedlings.sh* for the PlantSeedlings dataset simulations.
+-  *run_DeepWeed.sh* for the DeepWeed dataset simulations.
+-  *run_WPD.sh* for the Weed Phenological dataset simulations. 
