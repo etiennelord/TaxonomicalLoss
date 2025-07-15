@@ -879,7 +879,7 @@ def visualize_embeddings(embeddings, labels, title, filename):
     @return: silhouette score
     """
     # Reduce dimensionality
-    tsne = TSNE(n_components=2, random_state=421)
+    tsne = TSNE(n_components=2, perplexity=2, random_state=421)
     embeddings_2d = tsne.fit_transform(embeddings)
     # Cast
     labels = np.array(labels)
