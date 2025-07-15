@@ -1,7 +1,8 @@
 ########################################################################################################################
-### Taxonomic Loss using Siamese Networks - 2024
+### Taxonomic Loss using Siamese Networks - 2024-2025
 ### Authors: Hans-Olivier Fontaine (UdeS/AAFC), Etienne Lord (AAFC, etienne.lord@agr.gc.ca)
 ### Copyright Agriculture and Agri-Food Canada
+### Version 1.0
 ########################################################################################################################
 import copy
 import os
