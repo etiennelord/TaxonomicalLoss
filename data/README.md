@@ -12,10 +12,8 @@ Each dataset contains the taxonomical tree used during the training steps
 Note: Images have been resized from their original size to either 512x512px (WPD), 256 x 256 px (DeepWeeds) and 64 x 64 px (PlantSeedlings).
 
 
-A small version of the EuroSat RGB dataset *EuroSatRGBmini.zip* [Helber, 2019] is provided to test the scripts. To reproduce the results for the EuroSat image:
-
 ```
-python train.py --epoch=50 --data EuroSatRGBmini --tree taxonomy_Eurosat.txt --batch_size=128 --imgsz=64 --lr=0.001 --model "mobilenet" --seed=55 --embeddings_size=32 --loss "taxonomic" --train_val_test_split 0.70 0.15 0.15
+python train.py --epoch=50 --data WPD_mixed_BBCH --tree taxonomy.txt --batch_size=128 --imgsz=512 --lr=0.001 --model "mobilenet" --seed=55 --embeddings_size=32 --loss "taxonomic" --train_val_test_split 0.70 0.15 0.15
 ```
 
 #References
