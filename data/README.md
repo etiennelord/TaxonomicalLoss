@@ -4,7 +4,7 @@ Each dataset contains the taxonomical tree used during the training steps
 
 | Filename                    | Content                                                           | Download links (google drive )                                                     |
 | --------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| WPD_mixed_BBCH.tar.gz       | The unnanotated Weed Phenological Dataset images                  | https://drive.google.com/file/d/1FscsGwWlXzcsWt7_68aI0fQ7IJAzZuE2/view?usp=sharing |
+| WPD_mixed_BBCH.tar.gz       | The unnanotated Weed Phenological Dataset images used in simulations (4205 images)                  | https://drive.google.com/file/d/1uRUTQEh6vdSj1S3lJZWw__AMHtZgjG71/view?usp=sharing |
 | WPD_separated_BBCH.tar.gz   | A selection of Weed Phenolofical Dataset images (BBCH10-12) 2467 images| https://drive.google.com/file/d/1_RvyQRIpwVOA1RpsQpU32iNrPAR2dBRM/view?usp=sharing |
 | DeepWeeds_256x256.tar.gz    | A selection of images from the DeepWeeds dataset [Olsen, 2019]                 | https://drive.google.com/file/d/1uI-q69fN3FkjiLZLP5H1gMrJd3Hs07QF/view?usp=sharing | 
 | PlantSeedlings_64x64.tar.gz | A selection of images from the PlantSeedlings dataset [Giselsson, 2017]           | https://drive.google.com/file/d/1gpE9id6pr90wpu9cXqGAtugwNMri4Sal/view?usp=sharing |
