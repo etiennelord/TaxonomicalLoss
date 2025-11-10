@@ -1,5 +1,0 @@
-#NEXUS
-
-begin trees;
-tree 'phyloT_generated_tree' = (((Highway,(Residential,Industrial)Buildings)Architecture,(((AnnualCrop,PermanentCrop,Pasture)Agriculture,(Forest,HerbaceousVegetation)Natural)Vegetation,(River,SeaLake)Water)Nature)EuroSat);
-end;
