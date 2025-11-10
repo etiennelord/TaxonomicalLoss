@@ -1,4 +1,4 @@
-#Dataset used in the study
+**Dataset used in the study**
 
 Each dataset contains the taxonomical tree used during the training steps
 
