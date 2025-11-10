@@ -81,4 +81,4 @@ Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel datase
 
 ## Citations
 
-Hans-Olivier Fontaine, Samuel Foucher, Edith Fallon, Marie-Josee Simard, and Etienne Lord (2025) Taxonomical loss for weed seedlings image classification (in review)é
+Hans-Olivier Fontaine, Samuel Foucher, Edith Fallon, Marie-Josee Simard, and Etienne Lord (2025) Taxonomical loss for weed seedlings image classification (in review)
